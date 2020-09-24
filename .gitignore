@@ -118,3 +118,5 @@ DeskBooker.Core.Tests/obj/Debug/netcoreapp3.1/DeskBooker.Core.Tests.csproj.FileL
 DeskBooker.Core.Tests/obj/Debug/netcoreapp3.1/DeskBooker.Core.Tests.csprojAssemblyReference.cache
 DeskBooker.Core.Tests/obj/Debug/netcoreapp3.1/DeskBooker.Core.Tests.dll
 DeskBooker.Core.Tests/obj/Debug/netcoreapp3.1/DeskBooker.Core.Tests.pdb
+DeskBooker.Core.Tests/bin/Debug/netcoreapp3.1/Castle.Core.dll
+DeskBooker.Core.Tests/bin/Debug/netcoreapp3.1/Moq.dll
