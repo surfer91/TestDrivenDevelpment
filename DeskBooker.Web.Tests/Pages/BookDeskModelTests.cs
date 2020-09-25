@@ -7,9 +7,10 @@ using Moq;
 namespace DeskBooker.Web.Pages
 {
   public class BookDeskModelTests
-  {[Theory]
+  {
+    [Theory]
   [InlineData(1,true)]
-  [Inline(0,false)]
+  [InlineData(0,false)]
   public void ShouldCallBookDeskMethodOfProcessorIfModelIsValid(int expectedBookDeskCalls,bool isModelValid){
 
     var processorMock=new Mock<IDeskBookingRequestProcessor>();
