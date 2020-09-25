@@ -17,7 +17,7 @@ namespace DeskBooker.Web.Pages
     public DeskBookingRequest DeskBookingRequest { get; set; }
 
     public void OnPost()
-    {
+    { _deskBookingRequestProcessor.BookDesk(DeskBookingRequest);
       
     }
   }
