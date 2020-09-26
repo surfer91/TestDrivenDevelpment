@@ -6,6 +6,7 @@ using Moq;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Collections.Generic;
 
 namespace DeskBooker.Web.Pages
 {
@@ -93,7 +94,27 @@ if(!isModelValid){
 
         }
 
-        
+        [Fact]
+        public void ShouldRedirectToBookDeskConfirmationPage(){
+          _deskBookingResult.Code=DeskBookingResultCode.Success;
+          _deskBookingResult.DeskBookingId=7;
+          _deskBookingResult.FirstName="Thomas";
+          _deskBookingResult.Date=new DateTime(2020,1,28);
+IActionResult actionResult=_bookDeskModel.OnPost();
+var redirectToPageResult=Assert.IsType<RedirectToPageResult>(actionResult);
+Assert.Equal("BookDeskConfirmation",redirectToPageResult.PageName);
+IDictionary <string,object> routeValues=redirectToPageResult.RouteValues;
+Assert.Equal(3,routeValues.Count);
+var deskBookingId=Assert.Contains("DeskBookingId",routeValues);
+Assert.Equal(_deskBookingResult.DeskBookingId,deskBookingId);
+
+var firstName=Assert.Contains("FirstName",routeValues);
+Assert.Equal(_deskBookingResult.FirstName,deskBookingId);
+
+var date=Assert.Contains("Date",routeValues);
+Assert.Equal(_deskBookingResult.Date,deskBookingId);
+
+        }
 
 
 
