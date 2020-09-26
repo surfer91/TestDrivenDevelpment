@@ -109,10 +109,10 @@ var deskBookingId=Assert.Contains("DeskBookingId",routeValues);
 Assert.Equal(_deskBookingResult.DeskBookingId,deskBookingId);
 
 var firstName=Assert.Contains("FirstName",routeValues);
-Assert.Equal(_deskBookingResult.FirstName,deskBookingId);
+Assert.Equal(_deskBookingResult.FirstName,firstName);
 
 var date=Assert.Contains("Date",routeValues);
-Assert.Equal(_deskBookingResult.Date,deskBookingId);
+Assert.Equal(_deskBookingResult.Date,date);
 
         }
 
