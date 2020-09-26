@@ -618,3 +618,17 @@ DeskBooker.Web.Tests/obj/Debug/netcoreapp3.1/DeskBooker.Web.Tests.csproj.FileLis
 DeskBooker.Web.Tests/obj/Debug/netcoreapp3.1/DeskBooker.Web.Tests.csprojAssemblyReference.cache
 DeskBooker.Web.Tests/obj/Debug/netcoreapp3.1/DeskBooker.Web.Tests.dll
 DeskBooker.Web.Tests/obj/Debug/netcoreapp3.1/DeskBooker.Web.Tests.pdb
+DeskBooker.DataAccess/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+DeskBooker.DataAccess.Tests/obj/DeskBooker.DataAccess.Tests.csproj.nuget.cache
+DeskBooker.DataAccess.Tests/obj/DeskBooker.DataAccess.Tests.csproj.nuget.dgspec.json
+DeskBooker.DataAccess.Tests/obj/DeskBooker.DataAccess.Tests.csproj.nuget.g.props
+DeskBooker.DataAccess.Tests/obj/DeskBooker.DataAccess.Tests.csproj.nuget.g.targets
+DeskBooker.DataAccess.Tests/obj/project.assets.json
+DeskBooker.DataAccess.Tests/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+DeskBooker.DataAccess.Tests/obj/Debug/netcoreapp3.1/DeskBooker.DataAccess.Tests.AssemblyInfo.cs
+DeskBooker.DataAccess.Tests/obj/Debug/netcoreapp3.1/DeskBooker.DataAccess.Tests.AssemblyInfoInputs.cache
+DeskBooker.DataAccess.Tests/obj/Debug/netcoreapp3.1/DeskBooker.DataAccess.Tests.assets.cache
+DeskBooker.DataAccess.Tests/obj/Debug/netcoreapp3.1/DeskBooker.DataAccess.Tests.csprojAssemblyReference.cache
+DeskBooker.Web/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+DeskBooker.Web/obj/Debug/netcoreapp3.1/project.razor.json
+DeskBooker.Web.Tests/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
